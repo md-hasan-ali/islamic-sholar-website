@@ -98,5 +98,15 @@
         "salary": "4000",
         "Born": "1950",
         "img": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Hussein_Yee_-_Malaysia.jpg"
+    },
+    {
+        "key": "f1f4f2f11",
+        "name": "Mawlana Mamunul Haq",
+        "country": "Bangladesh",
+        "designation": "Deobandi Islamic scholar",
+        "Significant work": "Islamic motivational Speaker",
+        "salary": "5000",
+        "Born": "1973",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Mamunul_Haque.jpg/220px-Mamunul_Haque.jpg"
     }
 ]
