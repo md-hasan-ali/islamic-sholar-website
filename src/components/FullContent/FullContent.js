@@ -20,6 +20,7 @@ const FullContent = () => {
         const newCart = [...cart, persion]
         setCart(newCart)
     }
+
     return (
         <div className='full-container row me-3 mb-5'>
             <div className="col-md-9 container-fluid">
