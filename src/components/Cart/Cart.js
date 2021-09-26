@@ -16,10 +16,12 @@ const Cart = (props) => {
                 {
                     cart.map((persion, id) => <li
                         key={id}>
-                        <strong>Name</strong> : {persion.name}
+                        <strong>Name</strong> : {persion.name} <br />
+                        <strong>Country</strong> : {persion.country}
                     </li>)
                 }
             </ul>
+            <button className='btn btn-success'>Buy Now</button>
         </div>
     );
 };
