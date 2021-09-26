@@ -108,5 +108,15 @@
         "salary": "5000",
         "Born": "1973",
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Mamunul_Haque.jpg/220px-Mamunul_Haque.jpg"
+    },
+    {
+        "key": "f1f4f2f12",
+        "name": "Muhammad Tarek Monowar ",
+        "country": "Bangladesh",
+        "designation": "Islamic scholar",
+        "Significant work": "Islamic motivational Speaker",
+        "salary": "5000",
+        "Born": "1986",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShF71b7Y1tEPbYLHwpMwo9R1Ehvyn8C2QQjQ&usqp=CAU"
     }
 ]
