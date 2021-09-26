@@ -9,15 +9,14 @@ const Cart = (props) => {
         total = total + parseFloat(persion.salary);
     }
     return (
-        <div className='cart'>
+        <div className='cart text-center'>
             <h3><i className="fas fa-user-plus text-success"></i> Add Persion : {props.cart.length}</h3>
-            <h4>total : {total}</h4>
-            <ul>
+            <h4>Total Cost: {total}</h4>
+            <ul className='persion-name mt-4'>
                 {
-                    cart.map(persion => <li
-                        key={persion.key}
-                    >
-                        Name : {persion.name}
+                    cart.map((persion, id) => <li
+                        key={id}>
+                        <strong>Name</strong> : {persion.name}
                     </li>)
                 }
             </ul>

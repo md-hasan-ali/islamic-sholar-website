@@ -4,3 +4,12 @@
     margin-top: 32px;
     border-radius: 5px;
 }
+.persion-name li {
+    background-color: #157347;
+    color:#fff;
+    padding:10px;
+    margin:5px;
+    border-radius: 5px;
+    list-style-type: none;
+    font-size: 18px;
+}
