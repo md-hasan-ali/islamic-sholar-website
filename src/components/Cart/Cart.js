@@ -11,7 +11,7 @@ const Cart = (props) => {
     return (
         <div className='cart text-center'>
             <h3 className='mb-3'><i className="fas fa-user-plus text-success"></i> Add Persion : {props.cart.length}</h3>
-            <h4>Total Cost: {total}</h4>
+            <h4>Total Cost: ${total}</h4>
             <ul className='persion-name mt-4'>
                 {
                     cart.map((persion, id) => <li

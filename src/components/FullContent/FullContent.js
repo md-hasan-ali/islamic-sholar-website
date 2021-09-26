@@ -15,7 +15,7 @@ const FullContent = () => {
             .then(res => res.json())
             .then(data => setPersions(data))
     }, [])
-
+    // Add To Cart button function 
     const handleAddPersion = persion => {
         const newCart = [...cart, persion]
         setCart(newCart)
@@ -34,6 +34,7 @@ const FullContent = () => {
                     }
                 </div>
             </div>
+
             <div className="col-md-3">
                 <Cart cart={cart}></Cart>
             </div>
