@@ -17,8 +17,7 @@ const Persion = (props) => {
                     <p className="card-text"><strong>Salary</strong> : ${salary}</p>
                 </div>
                 <div className='add-button'>
-                    <button onClick={() => props.handleAddPersion(props.persion)} className='btn btn-success'><i className="fas fa-cart-plus"></i> Add Persion</button>
-
+                    <button onClick={() => props.handleAddPersion(props.persion)} className='btn btn-success'><i className="fas fa-cart-plus"></i> Add To Cart</button>
                     <div className="social-icon">
                         <a href="/"><i className="fab fa-twitter"></i></a>
                         <a href="/"><i className="fab fa-youtube"></i></a>
