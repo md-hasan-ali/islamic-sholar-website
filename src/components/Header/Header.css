@@ -1,8 +1,11 @@
+/* Header Css Start */
 .header {
     background-color: rgb(95, 94, 94);
     color: #fff;
     padding: 20px 0;
+    text-align: center;
 }
 .text-style {
     color: gold
 }
+/* Header Css End */

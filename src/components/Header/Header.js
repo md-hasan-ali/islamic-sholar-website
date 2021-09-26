@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css'
-
+// Header-Area Start
 const Header = () => {
     return (
         <div className='header'>
@@ -11,5 +11,5 @@ const Header = () => {
         </div>
     );
 };
-
+// Header-Area End
 export default Header;
